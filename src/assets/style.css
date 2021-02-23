@@ -1,6 +1,7 @@
-#main{
+    #main{
     position: absolute;
-    width: 100%;}
+    width: 100%;
+    }
     .day {
         background-image: url(seitenn.jpg);
     }
@@ -10,11 +11,13 @@
     .container {
         max-width: 500px;
         min-width: 360px;
-        background-color: #ffffff85;
+        background-color: #707070;
     }
     .title {
+        padding: 15px;
         font-size: 50px;
         font-weight: 500;
+        font-family: "游明朝";
     }
     .form-rounded {
         border-radius: 2rem;
@@ -30,13 +33,16 @@
     }
     .city-name p {
         font-weight: 400;
-        font-size: 16pt;
+        font-size: 20px;
+        padding: 3px;
+        font-family: "游明朝";
     }
     .city-name span {
         position: relative;
         top: -50px;
         font-size: 40pt;
-        font-family: 'Times New Roman', Times, serif;
+        font-family: "Bell MT";
+
     }
     .temp span {
         font-weight: 100;

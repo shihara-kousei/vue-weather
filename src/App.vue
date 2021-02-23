@@ -9,7 +9,7 @@
         v-model="citySearch"
         autocomplete="off"/>
       </form>
-      <div class="card-top text-center" style="margin-bottom: 12rem">
+      <div class="card-top text-center" >
         <div class="city-name my-3">
           <p>{{ weather.cityName }}</p>
           <span>...</span>
@@ -27,7 +27,7 @@
           <div class="row">
             <div class="col d-flex justify-content-between px-5 mx-5">
               <p><img src="./assets/down.svg" alt="" />{{ weather.lowTemp }}&deg;C</p>
-              <p><img src="./assets/up.svg" alt="" />{{ weather.highTemp }}&deg;C</p>
+              <p><img src="./assets/up.svg" alt="" />{{ weather.highTemp }}%</p>
             </div>
           </div>
         </div>
